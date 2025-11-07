@@ -2,9 +2,17 @@ import random
 
 #Cloud Village Portion
 def cloud():
-    clans = ["Arakami", "Chinoike", "Fuden", "Ginbakku", "Juden", "Kanon", "Kizokunoici", "Kushinada", "Tenkujin", "Cloud Style Kenjutsu", "Gale Style", "Clanless"]
+    clans = ["Arakami", "Chinoike", "Fuden", "Ginbakku", "Juden", "Kanon", "Kizokunoichi", "Kushinada", "Tenkujin", "Cloud Style Kenjutsu", "Gale Style", "Clanless"]
     origin = random.choice(clans)
-    if origin == "Arakami":
-        print("You are born into the Arakami Clan. One of the founding clans of the Cloud")
-    if origin == "Chinoike":
-        print("You are born into the Chinoike Clan")
+#Founding Clans
+    if origin in {"Arakami", "Fuden", "Kushinada", "Tenkujin"}:
+        print("You are born into the " + origin + " Clan. One of the founding clans of the Cloud")
+#Non-Founding Clans
+    if origin in {"Chinoike", "Ginbakku","Juden", "Kanon", "Kinzokunoichi"}:
+        print("You are born into the " + origin + " Clan.")
+#Special Techniques
+    if origin in {"Cloud Style Kenjutsu", "Gale Style"}:
+        print("You are born with talent in " + origin + ".")
+#Clanless
+    if origin == "Clanless":
+        print("You are not born with any specialties")
