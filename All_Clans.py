@@ -1,6 +1,6 @@
 import random
 
-#All helpers needed for main.py. REMEMBER TO ADD MORE WHEN WRITE UPS FOR EACH VILLAGE ARE CREATED
+#All helpers needed for main.py relating to clans and village placement. REMEMBER TO ADD MORE WHEN WRITE UPS FOR EACH VILLAGE ARE CREATED
 
 #Cloud Village Portion
 def cloud():
