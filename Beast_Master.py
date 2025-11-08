@@ -1,6 +1,6 @@
 import random
 
-def beast_extras()
+def beast_extras():
 #create the dictonaries and random choices
     branches = ["Coordinated Hunter", "Rider", "Watchdog"]
     natures = ["Fire", "Water", "Earth", "Wind", "Lightning", "Yin", "Yang"]
