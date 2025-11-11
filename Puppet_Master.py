@@ -34,6 +34,7 @@ def puppet_extras():
             puppet = random.choice(S_Puppet)
         case "Gold":
             Go_Puppet = ["Spider", "Doll", "Angel"]
+            puppet = random.choice(Go_Puppet)
     print("You start with " + type + " Secret Technique with The " + puppet)
 
         
