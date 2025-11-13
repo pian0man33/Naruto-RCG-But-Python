@@ -21,3 +21,47 @@ def Buki():
             print("You wield heavy weapons and two-handed weapons with ease, you are a Vanguard")
         case "Marksman": 
             print("You eliminate enemies with lethal precision from a distance, you are a Marksman")
+def Gen():
+    print("You are a Genjutsu Specialist")
+    branches = ["Illusionist", "Unseen", "Enchanter"]
+    type = random.choice(branches)
+    match type:
+        case "Illusionist":
+            print("Confuse your enemies, make them question what's real, you are an illusionist")
+        case "Unseen":
+            print("Through subtly and illusions, you have learned to land the killing blow, you are an unseen assassin.")
+        case "Enchanter":
+            print("Your genjutsu has proven priceless as a supportive took to yourself and allies, you are an enchanter")
+def Nin():
+    print("You are a Ninjutsu Specialist")
+    branches = ["Perfect", "Chromatic", "Signature"]
+    type = random.choice(branches)
+    match type:
+        case "Perfect":
+            print("You aim to perfect your chakra control")
+        case "Chromatic":
+            print("You prefer to use every nature release you can")
+        case "Signature":
+            print("You wish to leave your mark by creating a signature technique")
+def Medical():
+    print("You are a Medical Specialist")
+    branches = ["Bedside", "Combat", "Poisoner"]
+    type = random.choice(branches)
+    match type:
+        case "Bedside":
+            print("You shine when you are given time to provide care, you are a bedisde specialist")
+        case "Combat":
+            print("Most crach when under the pressure of battle, not you. You are a Combat Medic")
+        case "Poisoner":
+            print("Not every doctor uses their skills to heal, you are a poisoner.")
+def Ken():
+    print("You are a Kenjutsu Specialist")
+    branches = ["Samurai", "Swordplay", "Ronin"]
+    type = random.choice(branches)
+    match type:
+        case "Samurai":
+            print("You hold honor above else, Wake up Samurai")
+        case "Swordplay":
+            print("You are a true master who can easily change their fighting style on the fly, you have mastered swordplay.")
+        case "Ronin":
+            print("You prefer your team to be just you and your blade, A lone Ronin")
