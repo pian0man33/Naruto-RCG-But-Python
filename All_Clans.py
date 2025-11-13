@@ -64,10 +64,15 @@ def leaf():
     print("You are part of the Leaf Village")
     clans = ["Clanless", "Aburame", "Akimichi", "Eight Inner Gates", "Flying Raijin", "Inazuka", "Haruno", "Hatake", "Hyuga", "Nara", "Sarutobi", "Senju", "Super Beast Scroll", "Uchiha", "Yamanaka", "Yuhi"]
     origin = random.choice(clans)
-#Founging clans
+#Founding clans
     if origin in {"Aburame", "Akimichi", "Hyuga", "Uchiha", "Senju"}:
         print("You are born into the " + origin + " clan. One of the founding clans")
+#Specialities
     if origin in {"Eight Inner Gates", "Flying Raijin", "Super Beast Scroll"}:
         print("You are born with prowess in the" + origin)
+#Non-Founding Clans
     if origin in {"Inazuka", "Haruno", "Hatake", "Nara", "Sarutobi", "Yamanaka", "Yuhi"}:
         print("You are born into the " + origin + " clan")
+#Clanless
+    if origin == "Clanless":
+        print("You are clanless")
