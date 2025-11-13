@@ -35,6 +35,9 @@ def puppet_extras():
         case "Gold":
             Go_Puppet = ["Spider", "Doll", "Angel"]
             puppet = random.choice(Go_Puppet)
-    print("You start with " + type + " Secret Technique with The " + puppet)
+        case "Violet":
+            print("You are a practitioner of the Violet Secret Technique.")
 
+    if type != "Violet":
+        print("You are a practioner of the " + type + " Secret Technique, starting with the " + puppet + " puppet")
         

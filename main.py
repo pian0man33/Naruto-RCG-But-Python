@@ -7,10 +7,10 @@ import random
 
 def main():
     #define dictionaries for random functions here
-    #villages = ["Cloud", "Grass", "Leaf", "Mist", "Rain", "Sand", "Sky", "Sound", "Steam", "Stone", "Waterfall"]
+    #"Cloud", "Grass", "Leaf", "Mist", "Rain", "Sand", "Sky", "Sound", "Steam", "Stone", "Waterfall"
     villages = ["Cloud", "Grass", "Rain", "Sand"]
-    #classes = ["Beast_Master", "Bukijutsu", "Genjutsu","Ninjutsu", "Medical", "Puppet_Master", "Kenjutsu", "Sealing", "Sensory", "Summoning", "Tactician"]
-    classes = ["Beast_Master", "Puppet_Master"]
+    #"Beast_Master", "Bukijutsu", "Genjutsu","Ninjutsu", "Medical", "Puppet_Master", "Kenjutsu", "Sealing", "Sensory", "Summoning", "Tactician"
+    classes = ["Beast_Master", "Puppet_Master", "Buki"]
 
     #generate initial values
     starting_village = random.choice(villages)
@@ -33,3 +33,5 @@ def main():
             All_Classes.Beast()
         case "Puppet_Master":
             All_Classes.Puppets()
+        case "Buki":
+            All_Classes.Buki()
