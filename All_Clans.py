@@ -53,7 +53,7 @@ def sand():
     if origin in {"Aryura", "Shirogane", "Taiyofu", "Gaiken", "Hoki"}:
         print("You are born into the " + origin + " Clan. One of the founding clans of the Sand")
 #Non-founding Clans
-    if origin in {"Gaikan", "Kariudo", "Taiyofu", "Yokisoma"}:
+    if origin in {"Gaikan", "Kariudo", "Yokisoma"}:
         print("You are born into the " + origin + " Clan.")
 #Special Techniques
     if origin in {"Swift Release", "Heavenly Blade Dance", "Magnet Release", "Seven Heavenly Breaths"}:

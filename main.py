@@ -7,7 +7,7 @@ import random
 
 def main(starting_village):
     #"Beast_Master", "Bukijutsu", "Genjutsu","Ninjutsu", "Medical", "Puppet_Master", "Kenjutsu", "Sealing", "Sensory", "Summoning", "Tactician"
-    classes = ["Beast_Master", "Puppet_Master", "Buki", "Gen", "Nin", "Medical", "Ken"]
+    classes = ["Beast_Master", "Puppet_Master", "Buki", "Gen", "Nin", "Medical", "Ken", "Sensory"]
 
     #generate initial values
     ninja_type = random.choice(classes)
@@ -41,3 +41,7 @@ def main(starting_village):
             All_Classes.Medical()
         case "Ken":
             All_Classes.Ken()
+        case "Sensory":
+            All_Classes.Sensory()
+        case "Summoning":
+            All_Classes.Summoning()
