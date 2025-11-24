@@ -1,4 +1,6 @@
 import main
+
+
 from tkinter import *
 from tkinter import ttk
 
@@ -23,10 +25,11 @@ R_Option.grid(column=2, row=2)
 S_Option.grid(column=2, row=3)
 L_Option.grid(column=2, row=4)
 
+
 def run_randomizer():
     starting_village = choice.get()
     if starting_village:
-        main.main(starting_village)
+        main.randomizer(starting_village)
     else:
         print("Please select a village to be born into")
 

@@ -51,7 +51,7 @@ def Medical():
         case "Bedside":
             print("You shine when you are given time to provide care, you are a bedisde specialist")
         case "Combat":
-            print("Most crach when under the pressure of battle, not you. You are a Combat Medic")
+            print("Most crack when under the pressure of battle, not you. You are a Combat Medic")
         case "Poisoner":
             print("Not every doctor uses their skills to heal, you are a poisoner.")
 def Ken():
@@ -65,3 +65,27 @@ def Ken():
             print("You are a true master who can easily change their fighting style on the fly, you have mastered swordplay.")
         case "Ronin":
             print("You prefer your team to be just you and your blade, A lone Ronin")
+def Sensory():
+    print("You are a Sensory Specialist")
+    branches = ["Vigilant", "Detector", "Scout"]
+    type = random.choice(branches)
+    match type:
+        case "Vigilant":
+            print("You prefer to keep an eye out, you are Vigilant")
+        case "Detector":
+            print("Your job is to ensure that no enemy will have the enemy of surprise")
+        case "Scout":
+            print("You scout ahead for your team, eliminating enemies in secret")
+def Summoning():
+    print("You are a summoning specialist")
+    branches = ["Kaiju", "Tribe", "Handler"]
+    type = random.choice(branches)
+    match type:
+        case "Kaiju":
+            print("You Call forth powerful summons to the battlefield to fight alongside you.")
+        case "Tribe":
+            print("Organize your summons to battle on a united front")
+        case "Handler":
+            print("You are known to fight in coordinated combat with your summons.")
+
+            

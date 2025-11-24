@@ -1,4 +1,6 @@
 import random
+import GUI
+
 
 def puppet_extras():
 #Define the dictionaries
