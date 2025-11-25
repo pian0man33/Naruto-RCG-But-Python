@@ -3,11 +3,15 @@
 import All_Clans
 import All_Classes
 import random
+import Extras
 
 starting_village = "Cloud"
 
 
 def main(starting_village):
+
+
+
     #"Beast_Master", "Bukijutsu", "Genjutsu","Ninjutsu", "Medical", "Puppet_Master", "Kenjutsu", "Sealing", "Sensory", "Summoning", "Tactician"
     classes = ["Beast_Master", "Puppet_Master", "Buki", "Gen", "Nin", "Medical", "Ken", "Sensory"]
 
@@ -47,7 +51,11 @@ def main(starting_village):
             All_Classes.Sensory()
         case "Summoning":
             All_Classes.Summoning()
-
+        case "Tactician":
+            All_Classes.Tactician()
+    
+    Extras.preferred_weapon()
+    Extras.luckpoint()
 
 print("Generator Loaded")
 
