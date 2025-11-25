@@ -4,7 +4,10 @@ import All_Clans
 import All_Classes
 import random
 
-def randomizer(starting_village):
+starting_village = "Cloud"
+
+
+def main(starting_village):
     #"Beast_Master", "Bukijutsu", "Genjutsu","Ninjutsu", "Medical", "Puppet_Master", "Kenjutsu", "Sealing", "Sensory", "Summoning", "Tactician"
     classes = ["Beast_Master", "Puppet_Master", "Buki", "Gen", "Nin", "Medical", "Ken", "Sensory"]
 
@@ -45,5 +48,9 @@ def randomizer(starting_village):
         case "Summoning":
             All_Classes.Summoning()
 
-if __name__ == "__main__":
+
+print("Generator Loaded")
+
+
+if __name__ == "__generator__":
     pass
