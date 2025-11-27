@@ -7,9 +7,11 @@ import Puppet_Master
 def Beast():
     print("You are a master of Beasts")
     Beast_Master.beast_extras()
+    print("https://homebrewery.naturalcrit.com/share/qHqWecEkSsYk#beast-master")
 def Puppets():
     print("You are a puppet master")
     Puppet_Master.puppet_extras()
+    print("https://homebrewery.naturalcrit.com/share/qHqWecEkSsYk#puppet-master")   
 def Buki():
     print("You are a Bukjutsu Specialist")
     branches = ["Weapons", "Vanguard", "Marksman"]
@@ -21,6 +23,7 @@ def Buki():
             print("You wield heavy weapons and two-handed weapons with ease, you are a Vanguard")
         case "Marksman": 
             print("You eliminate enemies with lethal precision from a distance, you are a Marksman")
+    print("https://homebrewery.naturalcrit.com/share/qHqWecEkSsYk#bukijutsu-specialtist")
 def Gen():
     print("You are a Genjutsu Specialist")
     branches = ["Illusionist", "Unseen", "Enchanter"]
@@ -32,6 +35,7 @@ def Gen():
             print("Through subtly and illusions, you have learned to land the killing blow, you are an unseen assassin.")
         case "Enchanter":
             print("Your genjutsu has proven priceless as a supportive took to yourself and allies, you are an enchanter")
+    print("https://homebrewery.naturalcrit.com/share/qHqWecEkSsYk#genjutsu-specialist")
 def Nin():
     print("You are a Ninjutsu Specialist")
     branches = ["Perfect", "Chromatic", "Signature"]
@@ -43,6 +47,7 @@ def Nin():
             print("You prefer to use every nature release you can")
         case "Signature":
             print("You wish to leave your mark by creating a signature technique")
+    print("https://homebrewery.naturalcrit.com/share/qHqWecEkSsYk#ninjutsu-specialist")
 def Medical():
     print("You are a Medical Specialist")
     branches = ["Bedside", "Combat", "Poisoner"]
@@ -51,9 +56,10 @@ def Medical():
         case "Bedside":
             print("You shine when you are given time to provide care, you are a bedisde specialist")
         case "Combat":
-            print("Most crack when under the pressure of battle, not you. You are a Combat Medic")
+            print("Most crach when under the pressure of battle, not you. You are a Combat Medic")
         case "Poisoner":
             print("Not every doctor uses their skills to heal, you are a poisoner.")
+    print("https://homebrewery.naturalcrit.com/share/qHqWecEkSsYk#medical-specialist")
 def Ken():
     print("You are a Kenjutsu Specialist")
     branches = ["Samurai", "Swordplay", "Ronin"]
@@ -65,6 +71,7 @@ def Ken():
             print("You are a true master who can easily change their fighting style on the fly, you have mastered swordplay.")
         case "Ronin":
             print("You prefer your team to be just you and your blade, A lone Ronin")
+    print("https://homebrewery.naturalcrit.com/share/qHqWecEkSsYk#kenjutsu-specialist")
 def Sensory():
     print("You are a Sensory Specialist")
     branches = ["Vigilant", "Detector", "Scout"]
@@ -73,19 +80,19 @@ def Sensory():
         case "Vigilant":
             print("You prefer to keep an eye out, you are Vigilant")
         case "Detector":
-            print("Your job is to ensure that no enemy will have the enemy of surprise")
+            print("You are able to sense those a mile away, you are a Detector")
         case "Scout":
-            print("You scout ahead for your team, eliminating enemies in secret")
+            print("You scout ahead for your team, eliminating threats in secret, you are a Scout")
+    print("https://homebrewery.naturalcrit.com/share/qHqWecEkSsYk#sensory-specialtist")
 def Summoning():
-    print("You are a summoning specialist")
-    branches = ["Kaiju", "Tribe", "Handler"]
+    print("You are a Summoning Specialist")
+    branches = ["Kaiju", "Tribe Leader", "Handler"]
     type = random.choice(branches)
     match type:
         case "Kaiju":
-            print("You Call forth powerful summons to the battlefield to fight alongside you.")
-        case "Tribe":
-            print("Organize your summons to battle on a united front")
+            print("You call powerful summons to fight alongside you, you are a Kaiju Summoner")
+        case "Tribe Leader":
+            print("You organize your summons to battle on a unified front, you are a Tribe Leader")
         case "Handler":
-            print("You are known to fight in coordinated combat with your summons.")
-
-            
+            print("You fight in a coordinated fashion with your summons, you are a Handler")
+    print("https://homebrewery.naturalcrit.com/share/qHqWecEkSsYk#summoning-specialist")
