@@ -6,28 +6,6 @@ from tkinter import scrolledtext as st
 import sys
 import webbrowser
 
-def insert_link(display_text, url):
-    # Insert the text
-    start_index = console.index("insert")
-    console.insert("insert", display_text)
-
-    # Make a unique tag for this link text
-    tag_name = "link_" + start_index.replace(".", "_")
-
-    console.tag_add(tag_name, start_index, f"{start_index} + {len(display_text)}c")
-
-    # Styling (blue + underline)
-    console.tag_config(
-        tag_name,
-        foreground="blue",
-        underline=True
-    )
-
-    # Click action
-    def open_link(event, link=url):
-        webbrowser.open(link)
-
-    console.tag_bind(tag_name, "<Button-1>", open_link)
 
 def run_randomizer():
     starting_village = choice.get()
